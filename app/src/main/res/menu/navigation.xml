@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/zhuye" android:title="@string/main" android:icon="@drawable/ic_account_box_black_24dp"/>
+   <item android:id="@+id/chat" android:title="@string/news" android:icon="@drawable/ic_account_box_black_24dp"/>
+   <item android:id="@+id/dd" android:title="@null" android:icon="@null"/>
+   <item android:id="@+id/dingdan" android:title="@string/order" android:icon="@drawable/ic_account_box_black_24dp"/>
+   <item android:id="@+id/wode" android:title="@string/mine" android:icon="@drawable/ic_account_box_black_24dp"/>
+</menu>

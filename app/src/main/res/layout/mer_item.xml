@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/center"
+    android:layout_margin="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/merImage"
+            android:layout_width="@dimen/center"
+            android:layout_height="@dimen/center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/center"
+            android:layout_toEndOf="@id/merImage"
+            android:layout_toRightOf="@id/merImage"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/merName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/te1"
+                />
+            <TextView
+                android:id="@+id/merType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/te1"/>
+
+            <RatingBar
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="true"
+                android:rating="5"
+                android:layout_marginTop="60dp"
+                style="?android:attr/ratingBarStyleSmall"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

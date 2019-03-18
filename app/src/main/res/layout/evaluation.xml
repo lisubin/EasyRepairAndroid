@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/l"
+        android:layout_margin="@dimen/small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all"
+            android:padding="@dimen/small"
+            style="@style/te2"
+            android:layout_marginStart="@dimen/twenty"
+            android:layout_marginLeft="@dimen/twenty"
+            android:background="@drawable/shape_block"/>
+
+        <TextView
+            android:id="@+id/good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good"
+            android:padding="@dimen/small"
+            style="@style/te2"
+            android:layout_marginStart="@dimen/twenty"
+            android:layout_marginLeft="@dimen/twenty"
+            android:background="@drawable/shape_block"
+            />
+
+        <TextView
+            android:id="@+id/middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/middle"
+            android:padding="@dimen/small"
+            style="@style/te2"
+            android:layout_marginStart="@dimen/twenty"
+            android:layout_marginLeft="@dimen/twenty"
+            android:background="@drawable/shape_block"/>
+
+        <TextView
+            android:id="@+id/worse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/worse"
+            android:padding="@dimen/small"
+            style="@style/te2"
+            android:layout_marginStart="@dimen/twenty"
+            android:layout_marginLeft="@dimen/twenty"
+            android:background="@drawable/shape_block"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/evaList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_below="@id/l">
+    </ListView>
+
+</RelativeLayout>

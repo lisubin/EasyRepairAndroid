@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <include layout="@layout/layout_title"
+        android:id="@+id/layout_title"/>
+
+    <com.repair.lsb.easyrepair.customview.CircleImageView
+        android:id="@+id/avatar4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/layout_title"
+        android:src="@color/color_orange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/twenty"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_below="@id/avatar4"
+        android:layout_centerInParent="true"
+        android:paddingTop="58dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twenty"
+            android:layout_marginLeft="@dimen/twenty">
+
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="320dp"
+                android:hint="@string/phone"
+                android:layout_height="wrap_content"
+                style="@style/et1"
+                android:inputType="phone"
+                android:drawableStart="@drawable/ic_phone_black"
+                android:drawableLeft="@drawable/ic_phone_black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twenty"
+            android:layout_marginLeft="@dimen/twenty">
+
+            <EditText
+                android:id="@+id/passWord"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/pwd"
+                android:inputType="textPassword"
+                style="@style/et1"
+                android:drawableLeft="@drawable/ic_lock_black_42dp"
+                android:drawableStart="@drawable/ic_lock_black_42dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/userLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/layout"
+        android:background="@drawable/shape_button"
+        android:layout_marginTop="@dimen/twenty"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/goRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userLogin"
+        android:textColor="@color/redColor"
+        android:layout_marginLeft="@dimen/center"
+        android:layout_marginStart="@dimen/center"
+        android:layout_marginTop="40dp"
+        android:text="@string/registerContent"/>
+</RelativeLayout>

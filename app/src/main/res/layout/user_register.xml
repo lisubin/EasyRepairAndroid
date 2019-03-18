@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_title" android:id="@+id/layout_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_title"
+        android:paddingTop="@dimen/center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/please"
+            />
+
+        <EditText
+            android:id="@+id/phone"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twenty">
+
+            <EditText
+                android:id="@+id/valid"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+
+             />
+            <Button
+                android:id="@+id/send"
+                style="@style/et1"
+                android:text="@string/valid"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/register"
+            style="@style/et1"
+            android:layout_marginTop="@dimen/twenty"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/register"
+            android:background="@drawable/shape_button"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">易修通</string>
+
+    <!--登录注册-->
+    <string name="phone">手机号</string>
+    <string name="pwd">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="registerContent">还没注册，点我立即注册</string>
+    <string name="please">请输入你的手机号</string>
+    <string name="valid">验证码</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">请输入需要的维修事项</string>
+
+    <!-- 底部菜单 -->
+    <string name="mine">我的</string>
+    <string name="news">消息</string>
+    <string name="order">订单</string>
+    <string name="main">主页</string>
+
+    <string name="user_rule">用户守则</string>
+    <string name="fare">收费标准</string>
+    <string name="about">关于易修通</string>
+    <string name="no">未登录</string>
+    <string name="exit">退出登录</string>
+
+    <string name="camera">拍照</string>
+    <string name="album">相册</string>
+
+    <string name="send">发送</string>
+
+    <string name="distance">距离最近</string>
+
+
+    <string name="all">全部</string>
+    <string name="good">好</string>
+    <string name="middle">中</string>
+    <string name="worse">差</string>
+
+    <string name="xia">下单</string>
+    <string name="repair">我要报修</string>
+    <string name="jinxuan">精选服务</string>
+
+</resources>
